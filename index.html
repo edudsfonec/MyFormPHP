@@ -7,29 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div> 
-        <div class="img-box">
-            <img src="img-formulario.jpg">
-        </div>
-        <div class="form-box">
-            <h2>Com quem falo?</h2>
-            <p> Informe seu nome! </p>
-            <form action="cad.php" method="get">
-                <div class="input-group">
-                    <label for="nome"> Nome</label>
-                    <input type="text" name="nome" id="idnome" placeholder="Digite o seu nome" required>
-                </div>
+    <div class="img-box">
+        <img src="form_img.png">
+    </div>
+    
+    <div class="form-box">
+        <h2>Com quem falo?</h2>
+        <p> Informe seu nome! </p>
+        <form action="cad.php" method="get">
+            
+            <div class="input-group">
+                <label for="nome"> Nome</label>
+                <input type="text" name="nome" id="idnome" placeholder="Digite o seu nome" required>
+            </div>
 
-                <div class="input-group">
-                    <label for="sobrenome">Sobrenome</label>
-                    <input type="text" name="sobrenome" id="idsobrenome" placeholder="Digite o seu sobrenome" required>
-                </div>
+            <div class="input-group">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="idsobrenome" placeholder="Digite o seu sobrenome" required>
+            </div>
 
-                <div class="input-group">
-                    <button><input type="submit" value="Enviar"></button>
-                </div>
-            </form>
-        </div>
+            <div class="input-group">
+                <button><input type="submit" value="Enviar"></button>
+            </div>
+        </form>
     </div>
 </body>
 </html>
